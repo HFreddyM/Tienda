@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo"></div>
+        <a class="btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <div class="menu">
+            <a href="#home">INICIO</a>
+            <a href="#menu">MENU</a>
+            <a href="#ped">PEDIDOS ONLINE</a>
+            <a href="#suc">SUCURSALES</a>
+            <a href="#prom">PROMOCIONES</a>
+        </div>
+    </nav>
+    <section>
+        <div id="home">
+            <h1>Inicio</h1>
+            <p>Ven a probar nuestras delicias culinarias en nuestro restaurante: "el porcino feliz", donde contamos con una gran variedad de comidas para su desgustacion, ofreciéndole menú diario especial y nuestra selecta carta, 
+                con excelentes productos cárnicos para su deleite en brasa con fuego natural todo bajo el mas riguroso control de calidad solo para su deleite</p>
+                <br>
+            <p>Disfruta de nuestros alegres ambientes llenos de musica y diversion para toda la familia donde tenemos zonas de entretenimienta familiar hasta zonas de juegos para los niños </p>
+            <br>
+            <p>Con el fin de satisfacer a todos nuestros clientes ponemos a su disposición nuestro amplio comedor, para celebrar todo tipo de eventos, banquetes, comidas de empresa y cenas íntimas, así como una zona privada para comidas de trabajo.
+                Todo nuestro equipo desea que quede satisfecho tras su visita.</p>
+        </div>
+        <div id="menu">
+            <h1>MENU</h1>
+            <ol>
+                <li>Fricase......................30 Bs.</li>
+                <li>Fricase De Pollo.............25 Bs.</li>
+                <li>Fricase Mixto................35 Bs.</li>
+                <li>Chicharron...................45 Bs.</li>
+                <li>Chicharron De Pollo..........40 Bs.</li>
+                <li>Chicharron Mixto.............50 Bs.</li>
+                <li>Lechon.......................40 Bs.</li>
+                <li>Mondongo.....................60 Bs.</li>
+                <li>Sandwich De Chola............15 Bs.</li>
+            </ol>
+        </div>
+        <div id="ped">
+            <h1>PEDIDOS ONLINE</h1>
+            <p>Contactanos al numero: 8888888812 y si el pedido no llega en el tiempo indicado !!!!!TENDRA UNA REBAJ DEL 50% DE DESCUENTO¡¡¡¡¡¡¡</p>
+            <p>¿Esto cuenta como pedido online?</p>
+            <p>No pero eso es lo de menos puede tener una comida al 50% de DESCUENTO</p>
+        </div>
+        <div id="suc">
+            <h1>SUCURSALES</h1>
+            <P>Visitanos en cualquiera de Nuestras Sucursales en La Paz</P>
+            <P>SOCABAYA C. Potosí No. 1106 esq. Socabaya Zona Central
+                Telf. Pedidos: 240 6262 - 240 8702</P>
+            <p>EL PRADO Av. 16 de Julio No. 1854 Zona Central
+                Telf. Pedidos: 231 2804 - 231 7474</p>
+            <p>MEGACENTER Av. Rafael Pabón s/n Zona Irpavi
+                Telf. Pedidos: 272 0666 - 272 0444</p>
+            <p>MULTICINE Av. Arce No. 2631 Zona Central
+                Telf. Pedidos: 211 1009 - 211 1019</p>
+        </div>
+        <div id="prom">
+            <h1>PROMOCIONES</h1>
+            <p>Aproveche Nuestro Combo 2x1 Solo los Dias Sabados</p>
+            <p>A nuestros Fieles Clientes se les dara un desceunto del 10%, 20%, 30% hasta el 40% si vienen con los recibos de las anteriores compras</p>
+            <p>Compita en el Reto Semanal y si puede acabar con una bandeja de 1 kilo de chicharron en 1 hora !!!LA COMIDA SERA GRATIS¡¡¡¡</p>
+        </div>
+    </section>
+    <script type="text/javascript">
+        $(".btn").on("click", function(){
+            $('.menu').toggleClass("show");
+        });
+    </script>
+</body>
+</html>
